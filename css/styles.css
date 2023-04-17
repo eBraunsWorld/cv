@@ -45,7 +45,7 @@ p {
 }
 
 section {
-  margin: auto;
+  margin: 10% auto 10% auto;
 }
 
 
@@ -59,9 +59,10 @@ section {
   border-bottom-right-radius: 100%;
 }
 
-.contact-me h3 {
-  font-stretch: expanded;
-  font-style: italic;
+.email_form {
+  position: relative;
+  right: auto;
+  text-align: left;
 }
 /*END contact-me.html styles*/
 
@@ -94,10 +95,13 @@ section {
 
 .education > img {
   border-radius: 100%;
-  height: 12.5rem;
-  width: auto;
+  height: auto;
+  width: 12.5rem;
   float: right;
   margin-left: 50px;
+}
+#hobby_content h2 {
+  margin: auto;
 }
 
 #hobby_content img {
@@ -124,29 +128,44 @@ section {
 }
 
 .next_steps {
-  margin-top: 85px;
+  margin-top: 105px;
 }
 
 /*END About Me*/
 
 /*index.html (homepage only) styles*/
+.contact-me {
+  margin: auto 10% auto 10%;
+}
+
+.contact-me h3 {
+  font-stretch: expanded;
+  font-style: italic;
+}
+
+.profile {
+  margin: auto 10% auto 10%;
+}
+
 .profile > img {
   border-radius: 100%;
   height: 250px;
   width: auto;
   margin-top: 10%;
+  margin-bottom: 5%
 }
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: auto;
   text-align: left;
   line-height: 2;
 }
 
 .com_img {
   border-radius: 100%;
-  width: 25%;
+  height: 125px;
+  width: auto;
   float: left;
   margin-right: 30px;
   max-width: 150px;
@@ -154,7 +173,8 @@ section {
 
 .skill_img {
   border-radius: 100%;
-  width: 25%;
+  height: 125px;
+  width: auto;
   float: right;
   margin-left: 30px;
   max-width: 150px;
@@ -195,12 +215,13 @@ section {
 /*END NAV BAR*/
 
 /*Clouds on index.html*/
+.bottom-cloud {
+  position: absolute;
+  left: 10%
+}
+
 .top-cloud {
   position: absolute;
   right: 10%;
   top: 10%
-}
-.bottom-cloud {
-  position: absolute;
-  left: 10%
 }
