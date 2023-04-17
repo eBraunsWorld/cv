@@ -48,6 +48,24 @@ section {
   margin: auto;
 }
 
+
+
+/*Header of contact-me.html page*/
+#contact_h1 {
+  background-color: #333;
+  color: white;
+  margin-top: 0;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.contact-me h3 {
+  font-stretch: expanded;
+  font-style: italic;
+}
+/*END contact-me.html styles*/
+
+/*About Me Pictures & Content */
 .about_content h1{
   background-color: #333;
   color: white;
@@ -67,22 +85,6 @@ section {
 #career_content {
   text-align: right;
   width: auto;
-}
-
-/*Header of contact-me.html page*/
-#contact_h1 {
-  background-color: #333;
-  color: white;
-  margin-top: 0;
-  border-bottom-left-radius: 100%;
-  border-bottom-right-radius: 100%;
-}
-
-.email_form 
-
-.contact-me h3 {
-  font-stretch: expanded;
-  font-style: italic;
 }
 
 #edu_content {
@@ -125,6 +127,9 @@ section {
   margin-top: 85px;
 }
 
+/*END About Me*/
+
+/*index.html (homepage only) styles*/
 .profile > img {
   border-radius: 100%;
   height: 250px;
@@ -144,6 +149,7 @@ section {
   width: 25%;
   float: left;
   margin-right: 30px;
+  max-width: 150px;
 }
 
 .skill_img {
@@ -151,8 +157,10 @@ section {
   width: 25%;
   float: right;
   margin-left: 30px;
+  max-width: 150px;
 }
 
+/*Nav bar for every page*/
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -183,6 +191,10 @@ section {
     padding: 20px;
 
 }
+
+/*END NAV BAR*/
+
+/*Clouds on index.html*/
 .top-cloud {
   position: absolute;
   right: 10%;
